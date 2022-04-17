@@ -8,7 +8,8 @@
 
     .left {
         display: flex;
-        justify-content: space-between;
+        justify-content: space-evenly;
+        column-gap: 1rem;
         margin-right: 1rem;
 
         a {
@@ -26,6 +27,7 @@
         font-size: 2rem;
         cursor: pointer;
         text-transform: uppercase;
+        align-self: flex-start;
         h3 {
             color: cyan;
         }
@@ -43,11 +45,13 @@
 
         .btn {
             border-radius: 4px;
+            font-size: 0.7rem;
             display: flex;
             align-items: center;
 
             &:hover {
                 opacity: 0.8;
+                background-color: cyan;
             }
         }
     }

@@ -1,0 +1,11 @@
+.products {
+    width: 1080px;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: flex-start;
+    column-gap: 30px;
+    flex-wrap: wrap;
+}
