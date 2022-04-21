@@ -1,0 +1,82 @@
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: cyan;
+
+    hr {
+        width: 100%;
+    }
+
+    .sendMessage {
+        width: fit-content;
+        padding: 10px 40px;
+        border-radius: 5px;
+        margin: 1rem 0 2rem 0;
+
+        &:hover {
+            background-color: goldenrod;
+            opacity: 0.8;
+        }
+    }
+
+    h1 {
+        text-align: center;
+        padding: 30px 0 5px 0;
+    }
+
+    img {
+        width: 550px;
+        padding: 50px;
+        object-fit: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form {
+        display: flex;
+        justify-content: center;
+        column-gap: 5%;
+    }
+
+    .info {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 800px;
+        margin-right: 1%;
+        margin-top: 2rem;
+
+        .group {
+            display: flex;
+            flex-direction: column;
+            row-gap: 5px;
+            margin-bottom: 20px;
+
+            label {
+                font-size: 25px
+            }
+
+            input,
+            textarea {
+                font-size: 25px;
+                padding: 5px;
+
+                &::placeholder {
+                    color: goldenrod;
+                }
+
+                &:focus {
+                    outline: none
+                }
+            }
+
+            textarea {
+                resize: none;
+                height: 240px;
+            }
+        }
+    }
+}

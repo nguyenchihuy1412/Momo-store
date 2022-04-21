@@ -1,9 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useSelector } from "react-redux";
 import "boxicons";
 import "./header.scss";
 
 const Header = () => {
+  const state = useSelector((state) => state.addItem);
   return (
     <div className="header">
       <div className="left">
@@ -18,40 +20,25 @@ const Header = () => {
         </Link>
       </div>
       <div className="right">
-        <Link to="/login">
-          <button className="btn login">
-            <span>
-              <box-icon
-                style={{ paddingTop: 1, marginRight: 5 }}
-                type="solid"
-                name="arrow-to-right"
-              ></box-icon>
-            </span>
-            Login
-          </button>
-        </Link>
-        <Link to="/register">
-          <button className="btn register">
-            <span>
-              <box-icon
-                style={{ paddingTop: 1, marginRight: 5 }}
-                type="solid"
-                name="user-plus"
-              ></box-icon>
-            </span>
-            Register
-          </button>
-        </Link>
+        <div className="searchWrap">
+          <input type="search" id="search" placeholder="Search..." />
+        </div>
         <Link to="/cart">
           <button className="btn cart">
             <span>
               <box-icon
-                style={{ paddingTop: 1, marginRight: 5 }}
+                style={{ marginRight: 5 }}
                 type="solid"
                 name="cart"
               ></box-icon>
             </span>
             Cart
+            <span
+              className="productsCount"
+              style={{ marginTop: -1, marginLeft: 5 }}
+            >
+              {state.length}
+            </span>
           </button>
         </Link>
       </div>

@@ -16,6 +16,14 @@ export const products = [
     img: "https://cdn.tgdd.vn/Products/Images/44/270831/lenovo-ideapad-3-15itl6-i5-82h801p9vn-thumb-600x600.jpg",
   },
   {
+    id: 2,
+    title: "Laptop MacBook Pro 14 M1 Max 2021 10-core CPU/32GB/512GB/24-core",
+    price: 73900000,
+    priceText: "73.900.000 đ",
+    desc: "Khoác lên mình vẻ ngoài mới lạ so với các dòng Mac trước đó, thiết kế màn hình tai thỏ ấn tượng, bắt mắt cùng bộ hiệu năng đỉnh cao M1 Max mạnh mẽ, MacBook Pro 14 inch M1 Max 2021 xứng tầm là chiếc laptop cao cấp chuyên dụng dành cho dân kỹ thuật - đồ họa, sáng tạo nội dung.",
+    img: "https://bizweb.dktcdn.net/thumb/1024x1024/100/431/381/products/macbook-pro-14-2021-space-gray-4-50cde63d-8b49-466c-8046-af41a7dd92ae.png?v=1645541487870",
+  },
+  {
     id: 3,
     title: "Laptop Asus TUF Gaming FX517ZC i5 12450H/8GB/512GB/4GB",
     price: 27490000,
@@ -82,25 +90,17 @@ export const products = [
   {
     id: 11,
     title: "Laptop HP Gaming VICTUS 16 e0170AX R7 5800H/8GB/512GB/4GB",
-    price: 27990000+"",
+    price: 27990000 + "",
     priceText: "27.990.000 đ",
     desc: "Dòng Gaming Victus là một phiên bản lột xác hoàn toàn từ thiết kế đến hiệu năng của nhà HP. Chỉ với một mức giá tầm trung là bạn có thể sở hữu ngay chiếc laptop HP Gaming VICTUS 16 e0170AX R7 (4R0U7PA) chinh phục mọi tác vụ.",
     img: "https://cdn.tgdd.vn/Products/Images/44/268677/hp-gaming-victus-16-e0170ax-r7-4r0u7pa-600x600.jpg",
   },
-  {
-    id: 2,
-    title: "Laptop MacBook Pro 14 M1 Max 2021 10-core CPU/32GB/512GB/24-core",
-    price: 73900000,
-    priceText: "73.900.000 đ",
-    desc: "Khoác lên mình vẻ ngoài mới lạ so với các dòng Mac trước đó, thiết kế màn hình tai thỏ ấn tượng, bắt mắt cùng bộ hiệu năng đỉnh cao M1 Max mạnh mẽ, MacBook Pro 14 inch M1 Max 2021 xứng tầm là chiếc laptop cao cấp chuyên dụng dành cho dân kỹ thuật - đồ họa, sáng tạo nội dung.",
-    img: "https://cdn.tgdd.vn/Products/Images/44/263914/macbook-pro-14-m1-max-2021-10-core-cpu-2.jpg",
-  },
 ];
 
 export const slides = [
+  "https://i.ytimg.com/vi/4bOSMbygfoY/maxresdefault.jpg",
+  "https://static.chotot.com/storage/chotot-kinhnghiem/c2c/2020/05/laptop-cu-cau-hinh-cao.jpg",
   "https://salt.tikicdn.com/ts/product/7c/99/32/8a1fe86ac8e82b8aee55a7eea6aef94e.jpg",
   "https://thumbs.dreamstime.com/z/top-view-mock-up-sales-summary-slide-show-presentation-display-laptop-coffee-cup-table-meeting-room-top-view-mock-up-228847181.jpg",
   "https://img.websosanh.vn/v2/users/review/images/hxsjq4t0fd2mh.jpg?compress=85",
-  "https://static.chotot.com/storage/chotot-kinhnghiem/c2c/2020/05/laptop-cu-cau-hinh-cao.jpg",
-  "https://i.ytimg.com/vi/4bOSMbygfoY/maxresdefault.jpg",
 ];

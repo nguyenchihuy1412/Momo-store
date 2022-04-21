@@ -1,0 +1,38 @@
+.ProductDetail {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+    column-gap: 5rem;
+
+    img {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        row-gap: 1.5rem;
+
+        h3 {
+            font-size: 2rem;
+        }
+
+        h5 {
+            font-weight: bold;
+            font-size: 2rem;
+        }
+
+        p {
+            color: rgb(129, 126, 126);
+        }
+
+        .addToCart {
+            padding: 10px 0;
+            border-radius: 5px;
+        }
+    }
+}
